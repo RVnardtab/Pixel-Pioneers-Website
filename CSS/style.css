@@ -1,0 +1,436 @@
+@charset "utf-8";
+
+/*CSS Document*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Calibri', Times, serif;
+    margin: 0;
+    background-color: #202020;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h1, h2, h3 {
+    color: #e7d318;
+    font-family: Georgia, 'Arial', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2, h3 {
+    color: white;
+    font-family: Georgia, 'Arial', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    min-width: 30px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 280px;
+    max-height: 160px;
+    min-height: 110px;
+}
+
+/*Images*/
+.back-img {
+    height: auto;
+    background-image: url(../Images/Black\ and\ Grey\ Gradient.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Navigation bar*/
+nav {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+    background-color: #1b1b1a;
+    padding: 5px 5px; 
+    padding-left: 100px;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 12px;
+    margin-top: 3px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 10px;
+}
+nav a:hover, nav a.currentPage:hover {
+    transition: 0.4s;
+    color: #c4b107;
+}
+
+nav a.currentPage {
+    color: #998b0a;
+}
+
+.navLogo {
+    max-width: 40px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Resizing*/
+@media only screen and (max-width: 850px) {
+    nav {
+        display: none;
+    }
+}
+
+/*Footer*/
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+    background-color: #1b1b1a;
+    padding: 80px 80px; 
+    position: center;
+    top: 0;
+    border-top: 2px solid white;
+}
+
+footer a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 10px;
+}
+footer a:hover, footer a.currentPage:hover {
+    transition: 0.2s;
+    color: #c4b107;
+}
+
+footer a.currentPage {
+    color: #998b0a;
+}
+
+footer p {
+    font-family: Apple Chancery, cursive;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer h2 {
+    text-decoration-line: underline;
+}
+
+.footerLogo {
+    max-width: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Resizing*/
+@media only screen and (max-width: 1200px) {
+    footer a {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    footer a {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 1320px) {
+    .socHr {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+    p {
+        font-size: 16px;
+    }
+
+    h1 { font-size: 22px; }
+    h2 { font-size: 20px; }
+    h3 { font-size: 18px }
+
+    .socHr {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .socHr {
+        width: 80%;
+    }
+
+    iframe {
+        max-width: 100%;
+        width: 220px;
+        height: 115px;
+    }
+}
+
+@media only screen and (max-width: 1190px) {
+    .socHr {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    p {
+        font-size: 14px;
+    }
+
+    h1 { font-size: 20px; }
+    h2 { font-size: 18px; }
+    h3 { font-size: 16px }
+
+    .socHr {
+        width: 80%;
+    }
+
+    iframe {
+        max-width: 100%;
+        width: 200px;
+        height: 95px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    p {
+      font-size: 13px
+    }
+
+    h1 { font-size: 19px; }
+    h2 { font-size: 17px; }
+    h3 { font-size: 15px }
+
+    .socHr {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .socHr {
+        width: 80%;
+    }
+
+    img {
+        width: 60%;
+    }
+
+    .column1 .socials {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    p {
+      font-size: 9px
+    }
+
+    h1 { font-size: 15px; }
+    h2 { font-size: 13px; }
+    h3 { font-size: 11px }
+    
+    .description {
+        font-size: 10px;
+    }
+
+    .socHr {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    iframe {
+        max-width: 100%;
+        width: 135.5px;
+        height: 79.25px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    iframe {
+        max-width: 100%;
+        width: 105.5px;
+        height: 59.25px;
+    }
+
+    .socials button {
+        color: white;
+        font-size: 9px;
+        border-radius: 8px;
+        padding: 5px 5px;
+    }
+}
+
+/*Columns*/
+.column1 {
+    position: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.column2 {
+    float: left;
+    width: 50%;
+    padding-bottom: 20px;
+}
+.column3 {
+    float: left;
+    width: 33.33%;
+    padding-bottom: 20px;
+}
+
+.column4 {
+    float: left;
+    width: 25%;
+    padding-bottom: 20px;
+}
+
+.column5 {
+  float: left;
+  width: 20%;
+  padding-bottom: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (max-width: 850px) {
+    .column2 {
+      width: 100%;
+    }
+    .column3 {
+      width: 100%;
+    }
+    .column4 {
+      width: 100%;
+    }
+    .column5 {
+      width: 100%;
+    }
+}
+
+/* Slideshow */
+.slideshow {
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+    border: 1px solid #998511;
+  }
+  
+.mySlides {
+    display: none;
+}
+
+.stext {
+    color: white;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: white;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .stext {
+      font-size: 11px
+    }
+}
