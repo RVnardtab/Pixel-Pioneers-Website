@@ -48,6 +48,17 @@ iframe {
     min-height: 110px;
 }
 
+input[type=button], input[type=submit], input[type=reset] {
+    background: linear-gradient(to top left, #2d3005 0%, #84860d 50%, #2d3005 100%);
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
 /*Images*/
 .back-img {
     height: auto;
@@ -58,6 +69,21 @@ iframe {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.back-img2 {
+    height: auto;
+    background-image: url(../Images/Sunset\ \(2880x1620\).jpg);
+    background-blend-mode: soft-light;
+    opacity: 10%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.backgroundOpacity {
+    background: rgba(12, 12, 12, 0.8);
 }
 
 /*Navigation bar*/
@@ -89,15 +115,6 @@ nav a.currentPage {
     color: #998b0a;
 }
 
-nav .socials {
-    max-width: 70px;
-    float: none;
-    position: absolute;
-    right: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .navLogo {
     max-width: 100px;
     display: inline-block;
@@ -115,10 +132,67 @@ nav .socials {
     margin-right: auto;
 }
 
+/*Navigation bar mobile*/
+.navmobile {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: none;
+    overflow: hidden;
+    background: linear-gradient(to top right, #000000 0%, #444444 100%);
+    padding: 40px 40px; 
+    top: 0;
+}
+
+.navmobile a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 12px;
+    margin-top: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 10px;
+}
+.navmobile a:hover, nav a.currentPage:hover {
+    transition: 0.4s;
+    color: #c4b107;
+}
+
+.navmobile a.currentPage {
+    color: #998b0a;
+}
+
+.navmobileLogo {
+    max-width: 100px;
+    display: block;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navmobileName {
+    max-width: 400px;
+    padding-top: 10px;
+    display: block;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*Resizing*/
+@media only screen and (max-width: 950px) {
+    nav a {
+        padding: 5px;
+        font-size: 14px;
+    }
+}
+
 @media only screen and (max-width: 850px) {
     nav {
         display: none;
+    }
+
+    .navmobile {
+        display: block;
     }
 }
 
