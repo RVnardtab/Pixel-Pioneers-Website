@@ -309,32 +309,6 @@ footer h2 {
     }
 }
 
-@media only screen and (max-width: 500px) {
-    p {
-      font-size: 9px
-    }
-
-    h1 { font-size: 15px; }
-    h2 { font-size: 13px; }
-    h3 { font-size: 11px }
-}
-
-@media only screen and (max-width: 360px) {
-    iframe {
-        max-width: 100%;
-        width: 135.5px;
-        height: 79.25px;
-    }
-}
-
-@media only screen and (max-width: 300px) {
-    iframe {
-        max-width: 100%;
-        width: 105.5px;
-        height: 59.25px;
-    }
-}
-
 /*Columns*/
 .column1 {
     position: center;
