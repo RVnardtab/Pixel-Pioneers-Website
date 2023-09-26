@@ -8,7 +8,7 @@ html {
 body {
     font-family: 'Calibri', Times, serif;
     margin: 0;
-    background-color: #202020;
+    background-color: rgb(20, 20, 20);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -85,12 +85,14 @@ input[type=button], input[type=submit], input[type=reset] {
 .backgroundOpacity {
     background: rgba(12, 12, 12, 0.8);
 }
+.backgroundOpacity2 {
+    background: rgba(0, 0, 0, 0.5);
+}
 
 /*Navigation bar*/
 nav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow: hidden;
-    background: linear-gradient(to top right, #000000 0%, #444444 100%);
     padding: 40px 40px; 
     padding-left: 100px;
     top: 0;
@@ -137,7 +139,6 @@ nav a.currentPage {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: none;
     overflow: hidden;
-    background: linear-gradient(to top right, #000000 0%, #444444 100%);
     padding: 40px 40px; 
     top: 0;
 }
@@ -200,7 +201,7 @@ nav a.currentPage {
 footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow: hidden;
-    background-color: #1b1b1a;
+    background: linear-gradient(to bottom right, #000000 0%, #444444 100%);
     padding: 80px 80px; 
     position: center;
     top: 0;
