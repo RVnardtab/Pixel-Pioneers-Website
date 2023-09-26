@@ -262,7 +262,7 @@ footer h2 {
     margin: auto;
     text-align: center;
     background-color: black; 
-    box-shadow: 0 0 20px 1px #998b0a 
+    box-shadow: 0 0 50px 1px #998b0a 
 }
 
 @media only screen and (max-width: 1320px) {
