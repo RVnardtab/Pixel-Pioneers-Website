@@ -528,3 +528,12 @@ footer h2 {
       font-size: 11px
     }
 }
+
+/*Cards*/
+.cards {
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    background-color: black; 
+    box-shadow: 0 0 50px 1px #998b0a;
+}
