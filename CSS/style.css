@@ -250,16 +250,19 @@ footer h2 {
     }
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 950px) {
     footer a {
         font-size: 11px;
     }
 }
 
-@media only screen and (min-width: 1320px) {
-    .socHr {
-        width: 80%;
-    }
+/*Cards*/
+.cards {
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    background-color: black; 
+    box-shadow: 0 0 20px 1px #998b0a 
 }
 
 @media only screen and (max-width: 1320px) {
@@ -270,28 +273,6 @@ footer h2 {
     h1 { font-size: 22px; }
     h2 { font-size: 20px; }
     h3 { font-size: 18px }
-
-    .socHr {
-        width: 80%;
-    }
-}
-
-@media only screen and (max-width: 1300px) {
-    .socHr {
-        width: 80%;
-    }
-
-    iframe {
-        max-width: 100%;
-        width: 220px;
-        height: 115px;
-    }
-}
-
-@media only screen and (max-width: 1190px) {
-    .socHr {
-        width: 80%;
-    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -302,16 +283,6 @@ footer h2 {
     h1 { font-size: 20px; }
     h2 { font-size: 18px; }
     h3 { font-size: 16px }
-
-    .socHr {
-        width: 80%;
-    }
-
-    iframe {
-        max-width: 100%;
-        width: 200px;
-        height: 95px;
-    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -322,23 +293,19 @@ footer h2 {
     h1 { font-size: 19px; }
     h2 { font-size: 17px; }
     h3 { font-size: 15px }
-
-    .socHr {
-        width: 80%;
-    }
 }
 
 @media only screen and (max-width: 850px) {
-    .socHr {
-        width: 80%;
-    }
-
     img {
         width: 60%;
     }
 
     .column1 .socials {
         max-width: 80%;
+    }
+
+    .cards {
+        box-shadow: 0 0 13px 1px #998b0a 
     }
 }
 
@@ -350,14 +317,6 @@ footer h2 {
     h1 { font-size: 15px; }
     h2 { font-size: 13px; }
     h3 { font-size: 11px }
-    
-    .description {
-        font-size: 10px;
-    }
-
-    .socHr {
-        width: 80%;
-    }
 }
 
 @media only screen and (max-width: 360px) {
@@ -373,13 +332,6 @@ footer h2 {
         max-width: 100%;
         width: 105.5px;
         height: 59.25px;
-    }
-
-    .socials button {
-        color: white;
-        font-size: 9px;
-        border-radius: 8px;
-        padding: 5px 5px;
     }
 }
 
@@ -527,13 +479,4 @@ footer h2 {
     .stext {
       font-size: 11px
     }
-}
-
-/*Cards*/
-.cards {
-    max-width: 60%;
-    margin: auto;
-    text-align: center;
-    background-color: black; 
-    box-shadow: 0 0 50px 1px #998b0a;
 }
