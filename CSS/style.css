@@ -57,7 +57,7 @@ input[type=button], input[type=submit], input[type=reset] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-  }
+}
 
 /*Images*/
 .back-img {
@@ -98,9 +98,20 @@ nav {
     top: 0;
 }
 
+nav ul {
+    list-style: none;
+    width:750px;
+    margin:0 auto;
+}
+
+nav li {
+    float: left;
+}
+
 nav a {
     color: white;
-    float: right;
+    width:150px;
+    display: block;
     text-align: center;
     padding: 12px;
     margin-top: 40px;
@@ -119,7 +130,7 @@ nav a.currentPage {
 
 .navLogo {
     max-width: 100px;
-    display: inline-block;
+    display: block;
     position: center;
     margin-left: auto;
     margin-right: auto;
@@ -128,7 +139,7 @@ nav a.currentPage {
 .navName {
     max-width: 400px;
     padding-top: 10px;
-    display: inline-block;
+    display: block;
     position: center;
     margin-left: auto;
     margin-right: auto;
@@ -201,7 +212,7 @@ nav a.currentPage {
 footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow: hidden;
-    background: linear-gradient(to bottom right, #000000 0%, #444444 100%);
+    background: linear-gradient(to top right, #000000 0%, #444444 100%);
     padding: 80px 80px; 
     position: center;
     top: 0;
