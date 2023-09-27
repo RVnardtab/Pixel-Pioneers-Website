@@ -88,20 +88,21 @@ input[type=button], input[type=submit], input[type=reset] {
 .backgroundOpacity2 {
     background: rgba(0, 0, 0, 0.5);
 }
+.backgroundOpacity3 {
+    background: linear-gradient(to top right, rgba(0, 0, 0, 0.8) 0%, rgba(68, 68, 68, 0.85) 100%);
+}
 
 /*Navigation bar*/
 nav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow: hidden;
     padding: 40px 40px; 
-    padding-left: 100px;
-    top: 0;
 }
 
 nav ul {
     list-style: none;
-    width:750px;
-    margin:0 auto;
+    margin: 0 auto;
+    width: 750px;
 }
 
 nav li {
@@ -110,7 +111,7 @@ nav li {
 
 nav a {
     color: white;
-    width:150px;
+    width: 150px;
     display: block;
     text-align: center;
     padding: 12px;
@@ -129,18 +130,18 @@ nav a.currentPage {
 }
 
 .navLogo {
-    max-width: 100px;
-    display: block;
+    max-width: 15%;
+    display: inline-block;
     position: center;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 13%;
 }
 
 .navName {
-    max-width: 400px;
+    max-width: 55%;
     padding-top: 10px;
-    display: block;
-    position: center;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -188,14 +189,6 @@ nav a.currentPage {
     position: center;
     margin-left: auto;
     margin-right: auto;
-}
-
-/*Resizing*/
-@media only screen and (max-width: 950px) {
-    nav a {
-        padding: 5px;
-        font-size: 14px;
-    }
 }
 
 @media only screen and (max-width: 850px) {
@@ -249,7 +242,13 @@ footer h2 {
 }
 
 .footerLogo {
-    max-width: 130px;
+    max-width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerText {
+    max-width: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
